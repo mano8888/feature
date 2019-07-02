@@ -1,0 +1,12 @@
+deploy:deployingfile
+
+-DgroupId=com.branch
+-DartifactId=branch
+-Dversion=1.0-SNAPSHOT
+-Dpackaging=war
+-DgeneratePom=fasle
+-Drepository=nexus
+-Durl=https://nexus-tb-branch.com/repository/some-pro
+-Dfile=1.0-SANPSHOT.war
+
+
